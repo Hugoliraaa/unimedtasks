@@ -25,10 +25,8 @@ const Menu: React.FC = () => {
     >
       <header className="h-full flex flex-col">
         {/*<h1 className="font-bold uppercase text-center mt-8 text-lg tracking-wide hidden xl:block">
-          To-do list</h1>*/
-          <img src={avatar2} alt="cat" className="w-60 ml-4 mt-5" />
-          }
-        {/*<img src={avatar2} alt="cat" className="w-60 ml-4 mt-5" />*/}
+          To-do list</h1>*/}
+        <img src={avatar2} alt="cat" className="w-52 ml-4 mt-5" />
         <BtnAddTask className="my-8 mx-4" />
         <NavLinks classActive={classLinkActive} />
         <Directories classActive={classLinkActive} />
