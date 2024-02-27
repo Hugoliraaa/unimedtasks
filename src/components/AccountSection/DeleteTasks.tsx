@@ -21,12 +21,12 @@ const DeleteTasks: React.FC = () => {
           onConfirm={deleteAllDataHandler}
         />
       )}
-      <button
+      {/*<button
         className="mt-auto text-left pt-4 hover:text-rose-600 dark:hover:text-slate-200 transition "
         onClick={() => setIsModalShown(true)}
       >
         Delete all data
-      </button>
+      </button>*/}
     </>
   );
 };
