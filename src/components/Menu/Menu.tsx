@@ -1,4 +1,5 @@
 import React from "react";
+import avatar2 from "../../assets/logo.jpg";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { menusActions } from "../../store/Menu.store";
 import BtnAddTask from "../Utilities/BtnAddTask";
@@ -23,9 +24,10 @@ const Menu: React.FC = () => {
       className="left-0"
     >
       <header className="h-full flex flex-col">
-        <h1 className="font-bold uppercase text-center mt-8 text-lg tracking-wide hidden xl:block">
+        {/*<h1 className="font-bold uppercase text-center mt-8 text-lg tracking-wide hidden xl:block">
           To-do list
-        </h1>
+  </h1>*/}
+        <img src={avatar2} alt="cat" className="w-10 rounded-full ml-4" />
         <BtnAddTask className="my-8 mx-4" />
         <NavLinks classActive={classLinkActive} />
         <Directories classActive={classLinkActive} />
