@@ -1,5 +1,5 @@
 import React from "react";
-import avatar1 from "../../assets/acesso-removebg-preview.jpg";
+import avatar1 from "../../assets/acess.jpg";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { menusActions } from "../../store/Menu.store";
 import LayoutMenus from "../Utilities/LayoutMenus";
