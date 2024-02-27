@@ -1,5 +1,5 @@
 import React from "react";
-import avatar1 from "../../assets/avatar-1.jpg";
+import avatar1 from "../../assets/logo.jpg";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { menusActions } from "../../store/Menu.store";
 import LayoutMenus from "../Utilities/LayoutMenus";
@@ -25,7 +25,7 @@ const AccountData: React.FC = () => {
       <section className="p-5 flex flex-col h-full">
         <span className="flex items-center mx-auto">
           <span className="font-medium">Administrador</span>
-          {/*<img src={avatar1} alt="cat" className="w-10 rounded-full ml-4" />*/}
+          <img src={avatar1} alt="cat" className="w-10 rounded-full ml-4" />
         </span>
 
         <DarkMode />
