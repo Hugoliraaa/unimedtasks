@@ -8,7 +8,7 @@ import {
 import { Task } from "../interfaces";
 
 const defaultTasks: Task[] = [
-  {
+  /*{
     title: "Task 1",
     important: false,
     description: "This is the description for this task",
@@ -34,7 +34,7 @@ const defaultTasks: Task[] = [
     dir: "Main",
     completed: false,
     id: "t3",
-  },
+  },*/
 ];
 
 const getSavedDirectories = (): string[] => {
